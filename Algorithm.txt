@@ -1,17 +1,21 @@
 Algorithm:
 
-1. Read expense data from input source (e.g., user input, file, or database).
+1. Start.
 
-2. Create multiple threads to process expenses concurrently.
+2. Read expense data from input source (e.g., user input, file, or database).
 
-3. Each thread executes the expense processing logic in parallel.
+3. Create multiple threads to process expenses concurrently.
 
-4. Implement proper synchronization mechanisms to ensure thread safety while accessing and modifying shared resources, including the Expense objects.
+4. Each thread executes the expense processing logic in parallel.
 
-5. Generate reports or visualizations based on the processed expense data.
+5. Implement proper synchronization mechanisms to ensure thread safety while accessing and modifying shared resources, including the Expense objects.
 
-6. Store the processed data and reports in a cloud-based data storage service (e.g., Amazon RDS, Amazon DynamoDB, or Amazon S3).
+6. Generate reports or visualizations based on the processed expense data.
 
-7. Handle any exceptions or errors that may occur during the expense processing and data storage steps.
+7. Store the processed data and reports in a cloud-based data storage service (e.g., Amazon RDS, Amazon DynamoDB, or Amazon S3).
 
-8. End the threads and terminate the application.
+8. Handle any exceptions or errors that may occur during the expense processing and data storage steps.
+
+9. End the threads and terminate the application.
+
+10. Stop.
